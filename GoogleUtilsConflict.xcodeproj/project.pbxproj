@@ -13,6 +13,7 @@
 		CE302A38252341A400145CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE302A36252341A400145CAA /* Main.storyboard */; };
 		CE302A3A252341AE00145CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE302A39252341AE00145CAA /* Assets.xcassets */; };
 		CE302A3D252341AF00145CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE302A3B252341AF00145CAA /* LaunchScreen.storyboard */; };
+		CE30366E2523612600145CAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE30366D2523612600145CAA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE302A39252341AE00145CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE302A3C252341AF00145CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE302A3E252341AF00145CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE30366D2523612600145CAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CE302A36252341A400145CAA /* Main.storyboard */,
 				CE302A39252341AE00145CAA /* Assets.xcassets */,
 				CE302A3B252341AF00145CAA /* LaunchScreen.storyboard */,
+				CE30366D2523612600145CAA /* GoogleService-Info.plist */,
 				CE302A3E252341AF00145CAA /* Info.plist */,
 			);
 			path = GoogleUtilsConflict;
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE302A3D252341AF00145CAA /* LaunchScreen.storyboard in Resources */,
+				CE30366E2523612600145CAA /* GoogleService-Info.plist in Resources */,
 				CE302A3A252341AE00145CAA /* Assets.xcassets in Resources */,
 				CE302A38252341A400145CAA /* Main.storyboard in Resources */,
 			);

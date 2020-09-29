@@ -1,17 +1,12 @@
 platform :ios, '11.0'
 use_frameworks! :linkage => :static
 
-install! 'cocoapods',
-        share_schemes_for_development_pods: true,
-        incremental_installation: true,
-        generate_multiple_pod_projects: true
-
 target 'GoogleUtilsConflict' do
     pod 'GoogleTagManager'
 
     pod 'Firebase/Performance' # adds method conflicts warnings
 
-    pod 'Google-Mobile-Ads-SDK' # adds duplicate class warnings
+    # pod 'Google-Mobile-Ads-SDK' # adds duplicate class warnings
 end
 
 post_install do |installer|
