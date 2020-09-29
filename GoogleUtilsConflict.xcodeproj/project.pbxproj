@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		34C79E8F0D8C12BEFA25EF0A /* Pods_GoogleUtilsConflict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBB6EFBFB2F5F2D9F0B2064 /* Pods_GoogleUtilsConflict.framework */; };
 		CE302A31252341A400145CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE302A30252341A400145CAA /* AppDelegate.swift */; };
-		CE302A33252341A400145CAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE302A32252341A400145CAA /* SceneDelegate.swift */; };
 		CE302A35252341A400145CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE302A34252341A400145CAA /* ViewController.swift */; };
 		CE302A38252341A400145CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE302A36252341A400145CAA /* Main.storyboard */; };
 		CE302A3A252341AE00145CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE302A39252341AE00145CAA /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		BCBB6EFBFB2F5F2D9F0B2064 /* Pods_GoogleUtilsConflict.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleUtilsConflict.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE302A2D252341A400145CAA /* GoogleUtilsConflict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleUtilsConflict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE302A30252341A400145CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE302A32252341A400145CAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE302A34252341A400145CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE302A37252341A400145CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE302A39252341AE00145CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 				8CC61B1D27A60B62513A2016 /* Pods-GoogleUtilsConflict.debug.xcconfig */,
 				5FFA1C155158395D70A4BC8C /* Pods-GoogleUtilsConflict.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				CE302A30252341A400145CAA /* AppDelegate.swift */,
-				CE302A32252341A400145CAA /* SceneDelegate.swift */,
 				CE302A34252341A400145CAA /* ViewController.swift */,
 				CE302A36252341A400145CAA /* Main.storyboard */,
 				CE302A39252341AE00145CAA /* Assets.xcassets */,
@@ -103,7 +99,6 @@
 				CE302A29252341A400145CAA /* Sources */,
 				CE302A2A252341A400145CAA /* Frameworks */,
 				CE302A2B252341A400145CAA /* Resources */,
-				45C2813F73F6A52066782A6A /* [CP] Embed Pods Frameworks */,
 				3E50F44A143185953D622FF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -178,23 +173,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleUtilsConflict/Pods-GoogleUtilsConflict-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45C2813F73F6A52066782A6A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleUtilsConflict/Pods-GoogleUtilsConflict-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleUtilsConflict/Pods-GoogleUtilsConflict-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleUtilsConflict/Pods-GoogleUtilsConflict-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D1508DD4B104022E9F748EB8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,7 +204,6 @@
 			files = (
 				CE302A35252341A400145CAA /* ViewController.swift in Sources */,
 				CE302A31252341A400145CAA /* AppDelegate.swift in Sources */,
-				CE302A33252341A400145CAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -358,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
